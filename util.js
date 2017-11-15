@@ -282,6 +282,7 @@ const Util = {
       }
       moveBar.onmouseup = function() {
         isMousedown = false;
+        document.onmousemove = null;
         //$(document).off("mousemove");
       }
     }
