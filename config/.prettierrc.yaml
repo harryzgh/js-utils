@@ -1,0 +1,17 @@
+# 本配置文件放在项目根目录下， 此外 vs code 需配置如下两点：
+# 1、 需要安装 Prettier 插件
+# 2、 在settings.json文件中添加 "editor.formatOnSave": true,  "editor.defaultFormatter": "esbenp.prettier-vscode"
+useTabs: false # 是否使用制表符表示缩进
+tabWidth: 2 # 每个制表符的空格数
+printWidth: 80 # 每行的最大长度，超过这个长度会换行
+semi: false # 在每个语句的末尾添加分号
+singleQuote: false # 是否使用单引号
+quoteProps: "as-needed" # 仅在需要时给对象属性加引号
+jsxSingleQuote: false # 在 JSX 中使用双引号而不是单引号
+trailingComma: "es5" # 在 ES5 中有效的地方保留尾随逗号
+bracketSpacing: true # 在对象文字中打印括号之间的空格
+jsxBracketSameLine: false # 在多行 JSX 元素的最后一行末尾放置 `>` 而不是单独放一行
+arrowParens: "always" # 在单参数箭头函数参数周围加上括号
+proseWrap: "preserve" # 保留 markdown 文本中的换行符
+htmlWhitespaceSensitivity: "css" # 根据 CSS 显示属性决定是否需要在 HTML 中换行
+endOfLine: "lf" # 强制使用 Unix 换行符（LF）

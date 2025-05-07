@@ -1,4 +1,4 @@
-## vs code 需要安装 EditorConfig for VS Code 插件
+# 本配置文件放在项目根目录下， 此外 vs code 需要安装 EditorConfig for VS Code 插件
 root = true
 
 [*]
